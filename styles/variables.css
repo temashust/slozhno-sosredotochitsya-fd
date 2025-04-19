@@ -12,7 +12,7 @@
   --background-color: #000028;
   --h1-color: #db00ff;
   --h2-color: var(--accent-color);
-  --h3-color: var(--background-color);
+  --h3-color: var(--text-color);
   --font-family: 'IBM Plex mono', monospace;
   --regular-font-size: 18px;
   --small-line-height: 83%;

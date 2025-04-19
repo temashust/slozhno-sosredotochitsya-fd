@@ -21,13 +21,13 @@
   :root {
     --background-image: url("../images/cover-image-light.png");
     --accent-color: #ff8dcb;
-    --accent-color-opacity: #32312d66;;
+    --accent-color-opacity: #32312d66;
     --text-color: #353430;
     --decoration-color: var(--text-color);
     --background-color:#fff1f7;
     --h1-color: #ffc2e6;
-    --h2-color: var(--accent-color);
-    --h3-color: var(--background-color);
+    --h2-color: var(--text-color)
+    --h3-color:var(--text-color)
     --is-light: hidden;
 }
 }
