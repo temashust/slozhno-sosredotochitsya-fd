@@ -186,7 +186,7 @@
   grid-column: span 4;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap:20px;
 }
 
 .topic_card {
@@ -370,6 +370,7 @@
     align-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 10px;
    }
 
   .topic_card {
