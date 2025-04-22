@@ -363,12 +363,11 @@
   }
 
   .topic_desktop {
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: row; 
     grid-template-columns: repeat(3, 1fr);
     grid-column: span 3;
-    display: flex; 
-    justify-content: space-between; 
-    align-content: flex-start;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
    }
@@ -380,7 +379,7 @@
 
   .footer {
     min-height: 668px;
-}
+  }
  
 .footer-title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
