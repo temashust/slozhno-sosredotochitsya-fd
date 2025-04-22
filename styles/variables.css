@@ -10,9 +10,9 @@
   --text-color: #f1b2ce;
   --decoration-color: var(--accent-color);
   --background-color: #000028;
-  --h1-color: #db00ff;
-  --h2-color: var(--accent-color);
-  --h3-color: var(--text-color);
+  --primary-heading-color: #db00ff;
+  --secondary-heading-color: var(--accent-color);
+  --tertiary-heading-color: var(--text-color);
   --font-family: 'IBM Plex mono', monospace;
   --regular-font-size: 18px;
   --small-line-height: 83%;
@@ -21,6 +21,5 @@
   --bold-font-weight: 700;
   --normal-font-weight: 400;
   --font-style: normal;
-  --is-light: visible;
- 
+  --is-light: hidden;
 }
