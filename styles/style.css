@@ -370,8 +370,9 @@
     gap: 20px;
    }
 
-  .topic_card {      flex: 0 0 31.9%;
-      box-sizing: border-box;
+  .topic_card {     
+     flex: 0 0 31.9%;
+    box-sizing: border-box;
   }
 
   .footer {
