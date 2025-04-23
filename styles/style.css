@@ -5,6 +5,9 @@
   background-color: var(--background-color);
   background-attachment: fixed;
   background-image: var(--background-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -12,7 +15,6 @@
   height: 100vh;
   min-height: 668px;
   padding: 10px;
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -79,9 +81,8 @@
   block-size: 9px;
   border-radius: 50%;
   margin-inline-end: 10px;
- 
   background-color: var(--accent-color);
-  filter: box-shadow(0px 0px 4px var(--accent-color));
+  box-shadow: 0px 0px 4px var(--accent-color);
 }
 
 .header__theme-menu {
@@ -369,11 +370,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column: span 3;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
    }
 
-  .topic_card {
-      flex: 0 0 calc(33.333% - 10px);
+  .topic_card {      flex: 0 0 31.9%;
       box-sizing: border-box;
   }
 
